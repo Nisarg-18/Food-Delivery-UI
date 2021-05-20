@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url("Bg.png");
+  height: 100vh;
+  width: 100vw;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+}
+
+.top img {
+  position: absolute;
+  width: 100vw;
+  height: 60vh;
+}
+
+.object1 img {
+  margin-top: 10px;
+  margin-left: 43%;
+  height: 35vh;
+  width: 15vw;
+}
+
+.text {
+  margin-top: 16%;
+  z-index: 10;
+  margin-left: 25%;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.btn1 {
+  background-color: rgba(247, 152, 55, 255);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid rgba(247, 152, 55, 255);
+  width: 250px;
+  padding: 3px;
+}
+
+.btn1 p {
+  font-size: 10px;
+}
+.btn1 h3 {
+  color: white;
+}
+.btn1 p {
+  font-style: italic;
+}
+.btn1,
+.btn2,
+.btn3 {
+  cursor: pointer;
+  border-radius: 7px;
+  margin-top: 30px;
+  padding: 8px;
+}
+
+.btn2 h3 {
+  font-weight: lighter;
+}
+
+.btn3 h4 {
+  font-weight: lighter;
+}
+
+.btn3 h4 b {
+  color: rgba(247, 152, 55, 255);
+  font-weight: 790;
+}
+
+.btn2,
+.btn3 {
+  width: 250px;
+  background-color: transparent;
+  padding: 3px;
+  border: 1px solid rgba(247, 152, 55, 255);
+}
+
+.btn a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.btn a:hover {
+  cursor: pointer;
+}

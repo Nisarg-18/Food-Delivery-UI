@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url("Bg.png");
+  height: 100vh;
+  width: 100vw;
+}
+
+.top2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.top2 img {
+  position: absolute;
+  width: 100vw;
+  height: 53vh;
+}
+
+.object2 img {
+  margin-top: 10px;
+  margin-left: 43%;
+  height: 30vh;
+  width: 15vw;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.login img {
+  height: 35px;
+  width: 35px;
+  float: left;
+  margin-top: 0;
+  padding: 5px;
+}
+
+.btnn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.btnn1,
+.btnn2,
+.btnn3,
+.btnn4 {
+  width: 300px;
+  margin-top: 20px;
+  background-color: transparent;
+  border: 2px solid rgba(247, 152, 55, 255);
+  border-width: thin;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btnn1 {
+  margin-top: 0;
+}
+
+.heading h2 {
+  text-align: center;
+  margin-left: -220px;
+}
+
+.btnn a {
+  text-decoration: none;
+  color: black;
+  padding: 1px;
+  float: left;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.foot {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.btnn1:hover,
+.btnn2:hover,
+.btnn3:hover,
+.btnn4:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
